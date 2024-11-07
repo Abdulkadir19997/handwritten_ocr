@@ -1,0 +1,5 @@
+ultralytics
+transformers
+dlib
+face_recognition
+streamlit
