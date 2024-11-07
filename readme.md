@@ -44,7 +44,7 @@ This project includes a Streamlit demo that guides users through the process of 
 
 ### 1. Text Extraction and Validation Input Form
 
-![Text Extraction and Validation Input Form](readme_images/Ekran_goruntusu_2024-11-08_003519.png)
+![Text Extraction and Validation Input Form](readme_images/1.png)
 
 In this initial form, users can enter the expected details for validation against the extracted text. The form includes fields for:
 - **Name**: Enter the expected name.
@@ -55,19 +55,19 @@ After entering these details, users can upload an image file, such as a photo of
 
 ### 2. Uploaded Image Preview
 
-![Uploaded Image Preview](readme_images/Ekran görüntüsü 2024-11-08 003640.png)
+![Uploaded Image Preview](readme_images/2.png)
 
 Once the image is uploaded, it is displayed for user confirmation. This preview ensures that the correct file has been selected before the extraction begins. In this example, the uploaded image shows a person holding a paper with handwritten details.
 
 ### 3. Cropped Paper Detection
 
-![Cropped Paper Detection](readme_images/Ekran görüntüsü 2024-11-08 003650.png)
+![Cropped Paper Detection](readme_images/3.png)
 
 After uploading, the system detects and isolates the region of interest containing the handwritten details. The cropped section shows only the document area, removing extraneous parts of the image, which makes it easier to focus on extracting and recognizing text.
 
 ### 4. Detected Text Regions and Extracted Text
 
-![Detected Text Regions and Extracted Text](readme_images/Ekran görüntüsü 2024-11-08 003658.png)
+![Detected Text Regions and Extracted Text](readme_images/4.png)
 
 The detected text regions are shown here, highlighting each section of handwritten text recognized by the system. Under each region, the extracted text is displayed, which includes:
 - **Date**: Extracted as "10-10-2024"
@@ -78,7 +78,7 @@ This step provides a visual representation of the detected regions and displays 
 
 ### 5. Validation Results
 
-![Validation Results](readme_images/Ekran görüntüsü 2024-11-08 003710.png)
+![Validation Results](readme_images/5.png)
 
 After extraction, the system runs a validation process to compare the extracted text with the user-provided inputs. The results are displayed in JSON format, indicating whether each field matched the expected input:
 - **"name"**: `true`
